@@ -3,7 +3,7 @@ const sequelize = require("./models");
 const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
-const app = express();
+const app = express()
 const port = 5000;
 
 console.log(
